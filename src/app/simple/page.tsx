@@ -1,5 +1,5 @@
-import { SimpleEditor } from "@/components/tiptap-templates/simple/simple-editor"
+import EditorView from './_views/editor-view';
 
-export default function Page() {
-  return <SimpleEditor />
+export default async function Page() {
+  return <EditorView />;
 }
